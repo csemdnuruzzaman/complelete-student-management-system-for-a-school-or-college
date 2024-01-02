@@ -1,0 +1,43 @@
+.view-student-info{
+	padding-top:180px;
+	padding-bottom:100px;
+	background:#4e4f8d;
+}.view-student-query-info {
+	background: cadetblue;
+}
+.view-student-query-info .student-query{
+		padding:100px 0px;
+}
+.view-student-info form label {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.view-student-info form button {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+}
+.view-student-query-info .student-query label {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+.view-student-query-info .student-query img {
+	width: 19%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	border-radius: 50%;
+}
+@media only screen and (max-width: 870px){
+	.view-student-query-info .student-query img {
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 500px){
+	.view-student-query-info .student-query img {
+		width: 50%;
+	}
+}

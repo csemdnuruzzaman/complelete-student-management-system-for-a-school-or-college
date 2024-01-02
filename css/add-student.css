@@ -1,0 +1,24 @@
+.student_info_wrapper{
+	padding:120px 0;
+	background:#4e4f8d;
+}
+.student_info_wrapper form h3 {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  margin: 15px auto;
+}
+.student_info_wrapper form label {
+  display: block;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+}
+.student_info_wrapper form button {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.student_info_wrapper form .form-check-inline label{
+	margin:0px auto;
+}
